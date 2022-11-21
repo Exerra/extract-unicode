@@ -1,0 +1,16 @@
+{
+	"name": "extract-unicode",
+	"version": "1.0.0",
+	"description": "Extract all unicode codepoints for a given symbol",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"author": "Exerra",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.3"
+	}
+}
